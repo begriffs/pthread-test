@@ -3,4 +3,4 @@ LDFLAGS = -pthread
 
 all : alarms thread_error trylock backoff cond
 
-alarms : alarm alarm_fork alarm_thread alarm_mutex
+alarms : alarm alarm_fork alarm_thread alarm_mutex alarm_cond
